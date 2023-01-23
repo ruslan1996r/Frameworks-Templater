@@ -1,0 +1,25 @@
+{
+ "name": "webpackproj",
+ "version": "1.0.0",
+ "main": "index.js",
+ "scripts": {
+  "start": "nodemon index.js",
+  "build": "babel index.js -d dist",
+  "dev": "npm run build && nodemon dist/index.js",
+  "gen": "node index.js",
+  "rct": "echo \"you got pissed on your face\" "
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "dependencies": {
+  "inquirer": "^8.2.5"
+ },
+ "devDependencies": {
+  "@babel/cli": "^7.20.7",
+  "@babel/core": "^7.20.12",
+  "@babel/preset-env": "^7.20.2",
+  "nodemon": "^2.0.20"
+ },
+ "description": "one more shit framework"
+}
