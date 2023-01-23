@@ -1,3 +1,7 @@
+# About repository
+
+-   CLI app (sometime in the future) that allows quickly customize the structure of the frontend application
+
 # Commands
 
 -   `npm run gen` or `node index.js` - to start creating project. `draft` directory must be manually cleared before running the command
